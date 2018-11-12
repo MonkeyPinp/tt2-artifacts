@@ -1017,9 +1017,6 @@ function calculateTotalAD(data, update) {
 		obfuscate++;
 		total += v.level * v.ad;
 	});
-	if(0 < data.tmg.level) {
-		total *= data.tmg.current_effect;
-	}
 	if(true == update) {
 		$('#adsanity').text(displayPct(total * ("" != artifacts.data.hsw.current_effect ? artifacts.data.hsw.current_effect : 1)));
 	}

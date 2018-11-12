@@ -336,7 +336,7 @@ var artifacts = {
 		},
 		'coe' : {
 			'active' : 1,
-			'name' : '猫雕塑',
+			'name' : '猫 塑',
 			'nickname' : 'NS',
 			'bonus' : ' 麦达斯黄金的心脏',
 			'max' : -1,
@@ -1656,7 +1656,7 @@ var artifacts = {
 		},
 		'tmg' : {
 			'active' : 1,
-			'name' : '放大镜',
+			'name' : '放大',
 			'nickname' : 'TMG',
 			'bonus' : ' 神器伤害加成',
 			'max' : 40,
